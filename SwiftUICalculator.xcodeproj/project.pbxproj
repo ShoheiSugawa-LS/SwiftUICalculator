@@ -13,6 +13,7 @@
 		3281AB042521C33A00A7AC7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3281AB032521C33A00A7AC7E /* Preview Assets.xcassets */; };
 		3281AB0F2521C33B00A7AC7E /* SwiftUICalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281AB0E2521C33B00A7AC7E /* SwiftUICalculatorTests.swift */; };
 		3281AB1A2521C33B00A7AC7E /* SwiftUICalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281AB192521C33B00A7AC7E /* SwiftUICalculatorUITests.swift */; };
+		3281AB2B2521C94D00A7AC7E /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281AB2A2521C94D00A7AC7E /* CalculatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3281AB152521C33B00A7AC7E /* SwiftUICalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3281AB192521C33B00A7AC7E /* SwiftUICalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculatorUITests.swift; sourceTree = "<group>"; };
 		3281AB1B2521C33B00A7AC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3281AB2A2521C94D00A7AC7E /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3281AAFC2521C33800A7AC7E /* SwiftUICalculatorApp.swift */,
 				3281AAFE2521C33800A7AC7E /* ContentView.swift */,
+				3281AB2A2521C94D00A7AC7E /* CalculatorButton.swift */,
 				3281AB002521C33A00A7AC7E /* Assets.xcassets */,
 				3281AB052521C33A00A7AC7E /* Info.plist */,
 				3281AB022521C33A00A7AC7E /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3281AAFF2521C33800A7AC7E /* ContentView.swift in Sources */,
+				3281AB2B2521C94D00A7AC7E /* CalculatorButton.swift in Sources */,
 				3281AAFD2521C33800A7AC7E /* SwiftUICalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
